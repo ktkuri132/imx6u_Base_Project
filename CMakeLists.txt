@@ -6,7 +6,6 @@ cmake_minimum_required(VERSION 3.22)
 
 # 设置交叉编译工具链前缀
 set(PREFIX arm-linux-gnueabihf-)
-
 # 配置系统为通用嵌入式系统
 set(CMAKE_SYSTEM_NAME Generic)
 set(CMAKE_SYSTEM_VERSION 1)
